@@ -1,0 +1,22 @@
+.menu {
+    display: grid;
+    grid-template-columns: 147px 147px 147px;
+}
+
+@media screen and (max-width: 1920px) {
+    .menu {
+        grid-column-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .menu {
+        grid-column-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .menu {
+    display: none;
+    }
+}

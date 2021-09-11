@@ -1,0 +1,10 @@
+.section-2__discription-header {
+    font-weight: normal;
+    font-size: 36px;
+}
+
+@media screen and (max-width: 376px) {
+    .section-2__discription-header {
+        font-size: 18px;
+    }
+}

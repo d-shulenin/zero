@@ -1,0 +1,33 @@
+.section-2__video {
+    position: relative;
+}
+
+@media screen and (max-width: 1920px) {
+    .section-2__video {
+        width: 596.84px;
+        height: 705.32px;
+        margin-left: 137px;
+        margin-top: 121.87px;
+        background: url('../../../../static/images/video_1920.svg');
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .section-2__video {
+        width: 461px;
+        height: 576px;
+        margin-left: 106px;
+        margin-top: 65px;
+        background: url('../../../../static/images/video_1440.svg');
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .section-2__video {
+        width: 287px;
+        height: 359px;
+        margin-left: 28px;
+        margin-top: 30px;
+        background: url('../../../../static/images/video_375.svg');
+    }
+}

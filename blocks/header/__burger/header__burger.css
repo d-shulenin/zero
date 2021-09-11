@@ -1,0 +1,20 @@
+@media screen and (max-width: 1920px) {
+    .header__burger {
+        opacity: 0%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .header__burger {
+        opacity: 0%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .header__burger {
+    position: absolute;
+    left: 303px;
+    top: 25px;
+    opacity: 100%;
+    }
+}

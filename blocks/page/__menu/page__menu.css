@@ -1,0 +1,13 @@
+@media screen and (max-width: 1920px) {
+    .page__menu {
+        margin-left: 167px;
+        margin-top: 36px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .page__menu {
+        margin-left: 64px;
+        margin-top: 36px;
+    }
+}

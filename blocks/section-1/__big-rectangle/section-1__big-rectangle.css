@@ -1,0 +1,31 @@
+.section-1__big-rectangle {
+    margin: 0;
+    width: 531px;
+    height: 112px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #E4A92E;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 88px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 376px) {
+    .section-1__big-rectangle {
+        width: 384px;
+        height: 39px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        border: 0px;
+        padding-top: 0px;
+    }
+}

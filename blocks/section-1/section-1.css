@@ -1,0 +1,15 @@
+.section-1 {
+    height: 659px;
+    background: url('../../static/images/pizza.svg'); 
+    padding-top: 160px; 
+}
+
+@media screen and (max-width: 376px) {
+    .section-1 {
+        height: 605px;
+        background: url('../../static/images/pizza_375.svg') no-repeat; 
+        background-size: 375px 605px;
+        box-sizing: border-box;
+        padding-top: 189px;
+    }   
+}
