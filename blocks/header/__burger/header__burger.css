@@ -10,11 +10,29 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .header__burger {
+        opacity: 100%;
+        position: absolute;
+        top: 45px;
+        left: 85%;
+    }
+
+    .header__burger img {
+        width: 38px;
+    }
+}
+
+
 @media screen and (max-width: 376px) {
     .header__burger {
     position: absolute;
     left: 303px;
     top: 25px;
     opacity: 100%;
+    }
+
+    .header__burger img {
+        width: 26px;
     }
 }

@@ -1,23 +1,30 @@
-.section-2 {
+.section-two {
     display: flex;
     background: url('../../static/images/stickers.svg');
 }
 
 @media screen and (max-width: 1920px) {
-    .section-2 {
+    .section-two {
        height: 949px;
     }
 }
 
 @media screen and (max-width: 1440px) {
-    .section-2 {
+    .section-two {
         height: 733px;
         background-size: 1440px;
     }
 }
 
+@media screen and (max-width: 1085px) {
+    .section-two {
+        flex-direction: column;
+        background-size: 1085px 100%;
+    }
+}
+
 @media screen and (max-width: 376px) {
-    .section-2 {
+    .section-two {
         height: 638px;
         flex-direction: column;
         background-size: 375px no-repeat;

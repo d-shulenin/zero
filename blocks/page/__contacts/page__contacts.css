@@ -1,11 +1,17 @@
 @media screen and (max-width: 1920px) {
     .page__contacts {
-        margin-left: 374px;
+        margin: 0 8.5% 0 auto; 
     }
 }
 
 @media screen and (max-width: 1440px) {
     .page__contacts {
-        margin-left: 99px;
+        margin: 0 4.6% 0 auto;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .page__contacts {
+        margin: 0 3.6% 0 auto;
     }
 }

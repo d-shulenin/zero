@@ -1,0 +1,27 @@
+.section-two__discription-body {
+    font-weight: normal;
+}
+
+@media screen and (max-width: 1920px) {
+    .section-two__discription-body {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .section-two__discription-body {
+       font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .section-two__discription-body {
+         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .section-two__discription-body {
+         font-size: 12px;
+    }
+}

@@ -1,25 +1,31 @@
-.section-2__play-icon {
+.section-two__play-icon {
     position: absolute;
     width: 78px;
-    height: 73.8px;
 }
 
 @media screen and (max-width: 1920px) {
-    .section-2__play-icon {
+    .section-two__play-icon {
         left: 397px;
-        top: 1385.89px;
+        top: 1375.89px;
     }
 }
 
 @media screen and (max-width: 1440px) {
-    .section-2__play-icon {
+    .section-two__play-icon {
         left: 297px;
         top: 1249px;
     }
 }
 
+@media screen and (max-width: 1085px) {
+    .section-two__play-icon {
+        left: 50%;
+        top: 1223px;
+    }
+}
+
 @media screen and (max-width: 376px) {
-    .section-2__play-icon { 
+    .section-two__play-icon { 
         left: 135px;
         top: 835px;
     }

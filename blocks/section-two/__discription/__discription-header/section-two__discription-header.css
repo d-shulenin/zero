@@ -1,0 +1,16 @@
+.section-two__discription-header {
+    font-weight: normal;
+    font-size: 36px;
+}
+
+@media screen and (max-width: 652px) {
+    .section-two__discription-header {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .section-two__discription-header {
+        font-size: 18px;
+    }
+}
