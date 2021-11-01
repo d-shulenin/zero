@@ -1,5 +1,6 @@
 .section-two__video {
     position: relative;
+    background: black;
 }
 
 @media screen and (max-width: 1920px) {
@@ -22,10 +23,8 @@
 
 @media screen and (max-width: 1085px) {
     .section-two__video {
-        width: 461px;
-        height: 576px;
-        margin-left: 27%;
-        margin-top: 60px;
+        margin-left: 28%;
+        margin-top: 45px;
     }
 }
 
@@ -41,8 +40,29 @@
     .section-two__video {
         width: 387px;
         height: 459px;
-        margin-left: 27%;
+        margin-left: 22%;
         margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .section-two__video {
+        width: 337px;
+        height: 409px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .section-two__video {
+        width: 307px;
+        height: 379px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .section-two__video {
+        width: 277px;
+        height: 349px;
     }
 }
 

@@ -1,0 +1,23 @@
+.burger-menu__list {
+    list-style-type: none;
+    width: 23%;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 864px) {
+    .burger-menu__list {
+        width: 33%;
+    }
+} 
+
+@media screen and (max-width: 550px) {
+    .burger-menu__list {
+        width: 41%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .burger-menu__list {
+        width: 48%;
+    }
+}

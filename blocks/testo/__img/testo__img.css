@@ -1,0 +1,16 @@
+.testo__img{
+    width: 50%;
+}
+
+@media screen and (max-width: 1170px) {
+    .testo__img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .testo__img {
+        width: 100%;
+        opacity: 0.45;
+    }
+}

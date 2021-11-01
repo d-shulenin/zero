@@ -1,0 +1,36 @@
+.ingredients__discription-box {
+    height: 272.3px;
+    width: 67.66%;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    margin-left: 25.89%;
+    margin-top: -35px;
+    padding-top: 87.87px;
+    padding-left: 11.33%;
+}
+
+@media screen and (max-width: 850px) {
+    .ingredients__discription-box{
+        padding-left: 14.5%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .ingredients__discription-box{
+        padding-left: 18.5%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .ingredients__discription-box{
+        padding-top: 74.87px;
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .ingredients__discription-box{
+        padding-top: 57.87px;
+        height: 210px;
+    }
+}

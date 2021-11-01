@@ -1,0 +1,7 @@
+.burger-menu__item {
+    margin-bottom: 15px;
+}
+
+.burger-menu__item:last-child {
+    margin-top: 35px;
+}

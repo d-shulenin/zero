@@ -41,7 +41,16 @@
         grid-auto-columns: 450px;
         text-align: center;
         grid-template-rows: 34px 209px;
-        grid-row-gap: 30px;
+        grid-row-gap: 25px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .section-two__discription {
+        grid-auto-columns: 360px;
+        text-align: center;
+        grid-template-rows: 34px 209px;
+        grid-row-gap: 25px;
     }
 }
 

@@ -1,0 +1,15 @@
+.menu__small-pictures {
+    display: flex;
+    margin-top: 22px;
+    height: 300px;
+}
+
+.menu__small-pictures img:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1220px) {
+    .menu__small-pictures {
+        display: none;
+    }
+}

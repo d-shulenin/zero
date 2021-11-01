@@ -1,0 +1,15 @@
+.delivery__contact-block {
+    margin: 60px auto -23px;
+}
+
+@media screen and (max-width: 1150px) {
+    .delivery__contact-block {
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .delivery__contact-block {
+        margin: 23px auto;
+    }
+}

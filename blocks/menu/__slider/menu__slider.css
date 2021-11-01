@@ -1,0 +1,16 @@
+.menu__slider {
+    width: 75.3%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1440px) {
+    .menu__slider {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .menu__slider {
+        display: none;
+    }
+}

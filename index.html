@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
     <link href="index.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,30 +13,58 @@
     <title>Zero Pizza</title>
 </head>
 <body class="page">
-    
     <header class="header">
-        <a class="header__logo" href="#"><img src="static/images/logo.svg" alt="logo"></a> 
-        <a class="header__burger" href="#"><img src="static/images/burger.png"></a>
-        <div class="header__menu page__menu">
-            <div class="header__rectangle">
-                <a class="header__link" href="#">Меню</a>
-            </div>
-            <div class="header__rectangle">
-                <a class="header__link" href="#">Доставка</a>
-            </div>
-            <div class="header__rectangle">
-                <a class="header__link" href="#">Контакты</a>
-            </div>
-        </div>
+        <img class="header__logo" src="static/images/logo.svg" alt="logo">
+        <button class="header__burger" onclick="show_menu()"><img src="static/images/burger.svg" alt="burger button"></button>
+        <nav class="header__menu page__menu">
+            <button class="header__rectangle" id="menu">
+                <p>Меню</p>
+            </button>
+            <button class="header__rectangle" id='delivery'>
+                <p>Доставка</p>
+            </button>
+            <button class="header__rectangle" id='contacts'>
+                <p>Контакты</p>
+            </button>
+        </nav>
         <div class="header__contacts page__contacts">
-            <a class="header__whatsapp" href="#"><img src="static/images/whatsapp.svg"></a>
-            <a class="header__insta" href="#"><img src="static/images/insta.svg"></a>
-            <div class="header__rectangle header__rectangle_size_large">
-                <a class="header__link" href="#">+7 (905) 445-10-29</a>
-            </div>
+            <a class="header__whatsapp"><img src="static/images/whatsapp.svg" alt="whatsapp-icon"></a>
+            <a class="header__insta" href="https://www.instagram.com/zero_pizza/?hl=ru"><img src="static/images/insta.svg" alt="insta-icon"></a>
+            <button class="header__rectangle header__rectangle_size_large">
+                <p>+7 (905) 445-10-29</p>
+            </button>
         </div>
     </header>
 
+    <div class="burger-menu">
+        <ul class="burger-menu__list">
+            <li class="burger-menu__item">
+                <button class="burger-menu__rectangle" id="menu in burger">
+                    <p>Меню</p>
+                </button>
+            </li>
+            <li class="burger-menu__item">
+                <button class="burger-menu__rectangle" id='delivery in burger'>
+                    <p>Доставка</p>
+                </button>
+            </li>
+            <li class="burger-menu__item">
+                <button class="burger-menu__rectangle" id='contacts in burger'>
+                    <p>Контакты</p>
+                </button>
+            </li>
+            <li class="burger-menu__item">
+                <button class="burger-menu__rectangle">
+                    <p>+7 (905) 445-10-29</p>
+                </button>
+            </li>
+        </ul>
+        <div class="burger-menu__contacts">
+            <div><a href="#"><img src="static/images/whatsapp.svg" alt="whatsapp-icon"></a></div>
+            <div><a href="https://www.instagram.com/zero_pizza/?hl=ru"><img src="static/images/insta.svg" alt="insta-icon"></a></div>
+        </div>
+    </div>
+    
     <main>
         <section class="section-one">
             <h1 class="section-one__title">
@@ -45,12 +73,13 @@
             <p class="section-one__text">
                 Мы&nbsp;не&nbsp;делаем фастфуд, мы&nbsp;вывели пиццу на&nbsp;новый уровень
             </p>
-            <a class="section-one__arrow" href="#"><img src="static/images/arrow.svg"></a>
         </section>    
         <section class="section-two">
             <div class="section-two__frame"></div>
-            <img src="static/images/video.svg" class="section-two__video"></img>
-            <img class="section-two__play-icon" src="static/images/play_icon.svg">
+            <video class="section-two__video" id="video" poster="static/images/video.svg">
+                <source src="static/videos/video.MP4" type="video/mp4">
+            </video>
+            <button class="section-two__play-icon" id="play-icon" onclick="play()"><img src="static/images/play_icon.png" alt="play-icon"></button>
             <div class="section-two__discription page__discription">
                 <h3 class="section-two__discription-header">Глиняная печь</h3>
                 <p class="section-two__discription-body">
@@ -61,7 +90,140 @@
                 </p>
             </div>
         </section>
-    </main>
+        <section class="testo">
+            <img class="testo__img" src="static/images/testo.svg">
+            <div class="testo__text"> 
+                Для приготовления теста мы берем итальянскую муку из мягких сортов пшеницы помола «00» эта мука идеально подходит для неаполитанской пиццы,
+                так как содержит много протеина.
+                Тесто готовится с использованием всего 4  ингридиентов. Мука, вода, живые дрожжи и морская соль. Без добавления усилителей вкуса, сахара или масла. Тесто выдерживается минимум 24 часа, что позволяет дрожжам раскрыть
+                все свои свойства, тесто получается менее калорийным и лучше устаивается организмом.
+            </div> 
+        </section>
+        <section class="ingredients">
+            <div class="ingredients__pics">
+                <div class="ingredients__cheese">Импортные сыры</div>
+                <div class="ingredients__flour">Итальянская мука</div>
+            </div>
+            <div class="ingredients__discription">
+                <div class="ingredients__discription-box">
+                    <div class="ingredients__discription-title">
+                        Ингредиенты
+                    </div>
+                    <div class="ingredients__discription-text">
+                        Для приготовления мы используем только <br>качественные продукты и свежие овощи
+                    </div>
+                </div>
+            </div>
+            <div class="ingredients__greens">
+                <div class="ingredients__greens-title">
+                    ЗЕЛЕНЬ
+                </div>
+                <div class="ingredients__greens-text">
+                    всегда свежая поставка
+                </div>
+            </div>  
+        </section>
+        <section class="menu">
+            <div class="menu__slider">
+                <img id="menu__big-picture" src="static/images/slider/slider_picture-1-big.png"></img>
+                <div class="menu__small-pictures">
+                   <img class="menu__small-picture active" src="static/images/slider/slider_picture-1.png"></img>
+                   <img class="menu__small-picture" src="static/images/slider/slider_picture-2.png"></img>
+                   <img class="menu__small-picture" src="static/images/slider/slider_picture-3.png"></img>
+                   <img class="menu__small-picture" src="static/images/slider/slider_picture-4.png"></img>
+                </div>
+            </div>
+            <div class="menu__smaller-slider">
+                <div id="smaller-slider-wrapper">
+                    <div id="smaller-slider-picture"><img src="static/images/slider/slider_picture-1-big.png"></div>
+                    <div id="smaller-slider-picture"><img src="static/images/slider/slider_picture-2-big.png"></div>
+                    <div id="smaller-slider-picture"><img src="static/images/slider/slider_picture-3-big.png"></div>
+                    <div id="smaller-slider-picture"><img src="static/images/slider/slider_picture-4-big.png"></div>
+                </div>   
+                <div class="swiper-pagination2"></div>
+            </div> 
+            <div class="menu__logo"><img src="static/images/logo-black.svg" alt="black-logo"></div>
+            <div class="menu__menu-text">Меню</div>
+            <div class="menu__pics">
+                <div class="menu__pics-wrapper">
+                    <div class="menu__picture"><img src="static/images/menu-drinks.png" alt="panini menu"></div>
+                    <div class="menu__picture"><img src="static/images/menu-pizza.png" alt="pizza menu"></div>
+                    <div class="menu__picture"><img src="static/images/menu-panini.png" alt="drinks menu"></div>
+                </div>   
+                <div class="swiper-pagination"></div>
+            </div> 
+        </section>
+        <section class="delivery">
+            <img class="delivery__header" src="static/images/delivery-logo.svg" alt="delivery-logo">
+            <img class="delivery__icon-car" src="static/images/icon-car.svg" alt="icon-car">
+            <div class="delivery__about-rectangle">О ДОСТАВКЕ</div>
+            <div class="delivery__info">
+                <div class="delivery__info-left-column">
+                    <h6>Как оформить заказ</h6>
+                    <p class="delivery-info">Позвоните нам +7 (905) 445-10-29<br>или<br>напишите в WhatsApp</p>
+                    <button class="contact-block delivery__contact-block">
+                        <img class="delivery__phone" src="static/images/phone.svg" alt="phone-icon">
+                        <span>ПОЗВОНИТЬ</span>
+                    </button>
+                    <button class="contact-block delivery__contact-block">
+                        <img class="delivery__whatsapp" src="static/images/whatsapp.svg" alt="whatsapp-icon">
+                        <span>НАПИСАТЬ</span>
+                    </button>
+                </div>
+                <div class="delivery__info-right-column">
+                    <h6>Бесплатная доставка от<br><span>599₽</span></h6>
+                    <div class="delivery__time">
+                        <img src="static/images/clock.svg" alt="clock">
+                        <p class="delivery__time-text">Среднее время доставки 60 минут</p>
+                    </div>
+                    <p class="delivery-info">Наличный и безналичный расчёт</p>
+                    <p class="delivery-info">Самовывоз по адресу:</p>
+                    <div class="delivery__from">
+                        <img src="static/images/location.svg" alt="location">
+                        <p class="delivery-info delivery-info_weight_300">Адрес , ул. Ленина 468, 1 этаж, Телемир</p>
+                    </div>
+                    <p class="delivery-info">Часы работы:<br>Пн- чт с 10:00 до 21:00<br>Пт-вс с 10:00 до 22:00</p>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="contacts__info">
+                <div class="contacts__rectangle">
+                    НАШИ КОНТАКТЫ
+                </div>
+                <div class="contacts__from">
+                    <img src="static/images/location.svg" alt="location">
+                    <p class="delivery-info delivery-info_weight_500">Адрес , ул. Ленина 468, 1 этаж, Телемир</p>
+                </div>
+                 <div class="contacts__working-time">
+                    Режим работы:<br>
+                    <span>Пн- чт с 10:00 до 21:00<br>
+                    Пт-вс с 10:00 до 22:00</span>
+                </div>
+                <div class="contacts__phone">
+                    Телефон:<br>
+                    <span>+7 (905) 445-10-29</span>
+                </div>
+                <h3>Подписывайтесь на наш инстаграмм:</h3>
+                <div class="contacts__inst">
+                    <img src="static/images/insta.svg" alt="instagram">
+                    <span>zero_pizza</span>
+                </div>
+            </div>
+            <div class="contacts__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1102.8553707525593!2d41.92036996490343!3d45.03622561945692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f9aa047b189e0d%3A0x86e78efc1e19dac0!2z0YPQuy4g0JvQtdC90LjQvdCwLCA0NjgsINCh0YLQsNCy0YDQvtC_0L7Qu9GMLCDQodGC0LDQstGA0L7Qv9C-0LvRjNGB0LrQuNC5INC60YDQsNC5LCAzNTUwMjk!5e0!3m2!1sru!2sru!4v1633862818963!5m2!1sru!2sru" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
 
+    </main>
+    <footer class="footer">
+        <img class="footer__logo" src="static/images/white-logo.svg" alt="white logo">
+        <div class="footer__contacts">
+            <a href="#"><img src="static/images/whatsapp.svg" alt="whatsapp-icon"></a>
+            <a href="https://www.instagram.com/zero_pizza/?hl=ru"><img src="static/images/insta.svg" alt="insta-icon"></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

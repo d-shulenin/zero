@@ -1,0 +1,12 @@
+.testo {
+    background: #383838;
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    .testo {
+        position: relative;
+        display: block;
+        background: #000;
+    }
+}

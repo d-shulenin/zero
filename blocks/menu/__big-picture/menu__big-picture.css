@@ -1,0 +1,9 @@
+#menu__big-picture {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    #menu__big-picture {
+        height: 56.8vw;
+    }
+}

@@ -1,0 +1,81 @@
+.contacts__rectangle {
+    border: 1px solid;
+    box-sizing: border-box;
+    height: 95.72px;
+    width: 54.8%;
+    text-align: center;
+    padding-top: 27px;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 103px;
+    margin-bottom: 54px;
+}
+
+@media screen and (max-width: 1700px) {
+    .contacts__rectangle {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .contacts__rectangle {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    .contacts__rectangle {
+        font-size: 23px;
+        height: 71.72px;
+        width: 49.8%;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .contacts__rectangle {
+        font-size: 20px;
+        padding-top: 20px;
+        margin-top: 53px;
+    }
+}
+
+@media screen and (max-width: 973px) {
+    .contacts__rectangle {
+        font-size: 17px;
+        height: 62.72px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts__rectangle {
+        border: 0;
+        font-size: 20px;
+        height: 25px;
+        width: 218px;
+        padding-top: 0;
+        margin: 35px 24% 35px auto;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .contacts__rectangle {
+        border: 0;
+        font-size: 20px;
+        height: 25px;
+        width: 218px;
+        padding-top: 0;
+        margin: 35px auto 35px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .contacts__rectangle {
+        border: 0;
+        font-size: 18px;
+        height: 25px;
+        width: 198px;
+        padding-top: 0;
+        margin: 30px auto 30px;
+    }
+}

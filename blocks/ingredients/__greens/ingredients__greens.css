@@ -1,0 +1,22 @@
+.ingredients__greens {
+    width: 21.5%;
+    height: 335.14px;
+    background: url('https://im0-tub-ru.yandex.net/i?id=be765f7b816fd7bf9f5773bd9392b757&n=13') no-repeat;
+    background-size: 100%;
+    color: white;
+    margin-left: 12.86%;
+    position: absolute;
+    top: 25.56vw;
+}
+
+@media screen and (max-width: 850px) {
+    .ingredients__greens {
+        width: 24%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .ingredients__greens {
+        width: 28%;
+    }
+}

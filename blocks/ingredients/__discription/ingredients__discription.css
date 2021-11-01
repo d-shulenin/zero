@@ -1,0 +1,15 @@
+.ingredients__discription {
+    height: 310px;
+}
+
+@media screen and (max-width: 700px) {
+    .ingredients__discription {
+        height: 330px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .ingredients__discription {
+        height: 270px;
+    }
+}

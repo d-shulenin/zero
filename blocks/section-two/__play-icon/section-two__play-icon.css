@@ -1,32 +1,104 @@
 .section-two__play-icon {
+    display: block;
     position: absolute;
-    width: 78px;
+    top: 1375.89px;
+    left: 20.68%;
+    outline: none;
+    border: 0;
+    background: transparent;
+    transition-duration: 1.5s;
 }
 
-@media screen and (max-width: 1920px) {
+.section-two__play-icon img:hover {
+    width: 83px;
+    height: 80px;
+}
+
+@media screen and (max-width: 1700px) {
     .section-two__play-icon {
-        left: 397px;
-        top: 1375.89px;
+        left: 22.68%;
     }
 }
 
 @media screen and (max-width: 1440px) {
     .section-two__play-icon {
-        left: 297px;
-        top: 1249px;
+        top: 1228.89px;
+        left: 20.68%;
     }
 }
 
-@media screen and (max-width: 1085px) {
+@media screen and (max-width: 1250px) {
     .section-two__play-icon {
-        left: 50%;
-        top: 1223px;
+        left: 22.68%;
+    }
+}
+
+@media screen and (max-width: 1084px) {
+    .section-two__play-icon {
+        left: 45.68%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .section-two__play-icon {
+        left: 48.68%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section-two__play-icon {
+        left: 51.68%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-two__play-icon {
+        left: 49.68%;
+        top: 1208.89px;
+    }
+
+    .section-two__play-icon img {
+        width: 68px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 652px) {
+    .section-two__play-icon {
+        left: 47.68%;
+        top: 1180.89px;
+    }
+
+    .section-two__play-icon img {
+        width: 58px;
+        height: 58px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .section-two__play-icon {
+        left: 46.68%;
+        top: 1160.89px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .section-two__play-icon {
+        left: 45.68%;
+        top: 1145.89px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .section-two__play-icon {
+        left: 46.68%;
+        top: 1126.89px;
     }
 }
 
 @media screen and (max-width: 376px) {
-    .section-two__play-icon { 
-        left: 135px;
-        top: 835px;
+    .section-two__play-icon {
+        left: 37.68%;
+        top: 830.89px;
     }
 }

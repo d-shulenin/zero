@@ -1,0 +1,35 @@
+.ingredients__discription-text {
+    font-weight: 300;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+    .ingredients__discription-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .ingredients__discription-text {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .ingredients__discription-text {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .ingredients__discription-text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .ingredients__discription-text {
+        width: 91%;
+    }
+}

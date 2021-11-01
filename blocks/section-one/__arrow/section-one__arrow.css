@@ -18,6 +18,12 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .section-one__arrow {
+        margin-left: 50%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .section-one__arrow {
         margin-left: 50%;

@@ -1,0 +1,22 @@
+.ingredients__discription-title {
+    font-weight: normal;
+    font-size: 27px;
+}
+
+@media screen and (max-width: 1440px) {
+    .ingredients__discription-title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .ingredients__discription-title {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .ingredients__discription-title {
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,48 @@
+.delivery-info {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+}
+
+@media screen and (max-width: 1290px) {
+    .delivery-info {
+        font-size: 22px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .delivery-info {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 973px) {
+    .delivery-info {
+        font-size: 16.5px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .delivery-info {
+        font-size: 15px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width: 652px) {
+    .delivery-info {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .delivery-info {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

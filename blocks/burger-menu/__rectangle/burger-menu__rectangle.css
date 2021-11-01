@@ -1,0 +1,30 @@
+.burger-menu__rectangle {
+    height: 44px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 11px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.burger-menu__rectangle:hover {
+    background-color: #E8E6E6;
+    border: 0;
+}
+
+.burger-menu__rectangle p:hover {
+    color:#E4A92E;
+}
+
+.burger-menu__rectangle p {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}

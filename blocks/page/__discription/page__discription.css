@@ -55,13 +55,7 @@
 
 @media screen and (max-width: 1085px) {
     .page__discription {
-        margin: 102px auto 0 auto;
-    }
-}
-
-@media screen and (max-width: 652px) {
-    .page__discription {
-        margin: 72px auto 0 auto;
+        margin: 56px auto 20px auto;
     }
 }
 

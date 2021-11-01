@@ -1,0 +1,46 @@
+.menu__logo {
+    width: 264.5px;
+    height: 70.36px;
+    margin: 64.7px auto 0;
+}
+
+.menu__logo img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+    .menu__logo {
+        width: 240.99px;
+        height: 69.31px;
+        margin: 63.17px auto 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu__logo {
+        margin: 40px auto 0;
+    }
+}
+
+@media screen and (max-width: 628px) {
+    .menu__logo {
+        width: 210px;
+        margin: 40px auto 0;
+    }
+}
+
+@media screen and (max-width: 498px) {
+    .menu__logo {
+        width: 190px;
+        margin: 40px auto 0;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .menu__logo {
+        width: 159px;
+        height: 45.73px;
+        margin: 30px auto 0;
+    }
+}
+

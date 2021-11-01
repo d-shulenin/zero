@@ -1,0 +1,11 @@
+.delivery__icon-car {
+    width: 16%;
+    margin: 25px auto 0 41.7%;
+}
+
+@media screen and (max-width: 376px) {
+    .delivery__icon-car {
+        width: 123px;
+        margin: 20px auto 0 32.8%;
+    }
+}

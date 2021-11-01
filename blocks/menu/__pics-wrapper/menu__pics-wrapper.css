@@ -1,0 +1,12 @@
+.menu__pics-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 95%;
+}
+
+@media screen and (max-width: 768px) {
+    .menu__pics-wrapper {
+        height: 93%; 
+    }
+}
+

@@ -1,0 +1,17 @@
+.contacts {
+    display: flex;
+    height: 928px;
+}
+
+@media screen and (max-width: 1120px) {
+    .contacts {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .contacts {
+        flex-direction: column;
+        height: auto;
+    }
+}

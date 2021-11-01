@@ -4,18 +4,25 @@
     }
 }
 
-@media screen and (max-width: 1440px) {
-    .header__burger {
-        opacity: 0%;
-    }
-}
-
 @media screen and (max-width: 1200px) {
     .header__burger {
         opacity: 100%;
         position: absolute;
-        top: 45px;
+        width: 60px;
+        height: 60px;
+        border: 0;
+        border-color: white;
+        background: white;
+        top: 30px;
         left: 85%;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+       
+    .header__burger:hover {
+        border-radius: 50%;
+        border-color: #F3C157;
+        background: #F3C157;
     }
 
     .header__burger img {
@@ -28,11 +35,13 @@
     .header__burger {
     position: absolute;
     left: 303px;
-    top: 25px;
+    width: 35px;
+    height: 35px;
+    top: 15px;
     opacity: 100%;
     }
 
     .header__burger img {
-        width: 26px;
+        width: 20px;
     }
 }
