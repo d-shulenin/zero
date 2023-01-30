@@ -39,8 +39,6 @@ contactsButton.addEventListener('click', function() {
     })
 })
 
-
-
 if (document.documentElement.clientWidth <= 1440) {
     document.querySelector('.menu__pics').classList.add('swiper')
     document.querySelector('.menu__pics-wrapper').classList.add('swiper-wrapper')
